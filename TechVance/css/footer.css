@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+    transition: color 0.5s ease;
+}
+
+.socialIcons, a:hover {
+color: #E9C46A;
+}
+
+.socialIcons, a:hover i {
+    color: #E9C46A;
+} 
+
+.footerNav ul{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerNav ul {
+    color: white;
+}
+.footerNav li{
+    display: flex;
+}
+
+
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
